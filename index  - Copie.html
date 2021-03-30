@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style media="screen">
+  #output > span{
+    display:block;
+    height: 360px;
+    width: 362px;
+    background:url("zozor.png") no-repeat;
+    position: absolute;
+    top: 89px;
+    left: 142px
+  }
+  #output > span[date-state=paint]{
+    display: block;
+    height:360px;
+    width: 362px;
+    background:url("zozor-peintre.png") no-repeat;
+    position: absolute;
+    top: 89px;
+    left: 142px
+  }
+  #output blockquote{
+        font-family: Georgia, serif;
+        font-size: 13px;
+        font-style: italic;
+        margin: 0.25em 0;
+        padding: 0.25em 40px;
+        line-height: 1.45;
+        position: relative;
+        color: red;
+      }
+      blockquote{
+        background: #f9f9f9;
+        border-left: 10px solid #ccc;
+        margin: 1.5em 10px;
+        padding: 0.5em 10px;
+        quotes: "\201C" "\201D" "\2018" "\2019";
+      }
+      #output blockquote cite{
+        color: blue;
+      font-size: 14px;
+      display: block;
+      margin-top: 5px;
+      }
+    </style>
+  </style>
+  <body>
+
+    <div id=divTP1></DIV>
+
+  </body>
+  <script type="text/javascript">
+    let b =document.body;
+  let divtp1=document.getElementById("divTP1");
+  let newP= document.createElement('p');
+  let textNodes = [
+          document.createTextNode('Le '),
+          document.createTextNode('World Wide Web Consortium'),
+          document.createTextNode(', abrégé par le sigle '),
+          document.createTextNode('W3C'),
+          document.createTextNode(', est un '),
+          document.createTextNode('organisme de standardisation'),
+          document.createTextNode(' à but non-lucratif chargé de promouvoir la compatibilité des technologies du '),
+          document.createTextNode('World Wide Web'),
+          document.createTextNode('.')
+      ];
+      newP.textContent='le';
+      divtp1.append(textNodes);
+      textNodes[0]=element.textContent = "le";
+
+
+
+</script>
+</html>
